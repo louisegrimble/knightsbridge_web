@@ -12,57 +12,115 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div  class="w3-bar" style="background-color: #e8e8e8; width: 100%; padding: 1em; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-    <a href="#home" class="w3-bar-item w3-button" style="color: #000000;"><b>KSG</b> Knightsbridge Strategic Group</a>
+    <a href="#home" class="w3-bar-item w3-button">
+      <b style="font-family: 'Times New Roman', Times, serif; font-size: 22px; color: #D9B95B;">KSG</b>
+      <span style=" font-size: 18px; color: #000000;"> Knightsbridge Strategic Group</span>
+    </a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button" style="color: #000000;">Intelligence Reports</a>
-      <a href="#about" class="w3-bar-item w3-button" style="color: #000000;">About</a>
-      <a href="#contact" class="w3-bar-item w3-button" style="color: #000000;">Contact</a>
+      <a href="#projects" class="w3-bar-item w3-button" style="font-size: 18px; color: #000000;">Intelligence Reports</a>
+      <a href="#about" class="w3-bar-item w3-button" style="font-size: 18px; color: #000000;">About</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="font-size: 18px; color: #000000;">Contact</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" 
-style="max-width:1500px;" id="home">
-  <img class="w3-image" 
-src="header_logo.png" 
-alt="Architecture" width="1500" height="700">
+<head>
+  <style>
+    .custom-image {
+      width: 100%; /* Adjust as needed */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 1500px;
+      max-height: 700px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Using Inline Styles -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px; max-height:700px;" id="home">
+  <img class="w3-image" src="header_logo.png" alt="Architecture" style="width: 100%; height: auto; max-width: 1500px; max-height: 700px;">
 </header>
+
+</body>
+</html>
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .service-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .service-box {
+      flex: 1 1 30%; /* Grow to fill space, shrink if necessary, base width 30% */
+      max-width: 30%; /* Ensure the width doesn't exceed 30% */
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+      margin-bottom: 16px; /* Adjust as needed */
+      padding: 16px; /* Adjust as needed */
+    }
+    .service-box-content {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .service-box h3 {
+      margin-top: 0;
+    }
+    .service-box p {
+      flex-grow: 1; /* Allow paragraphs to grow and take available space */
+    }
+    .service-box button {
+      align-self: flex-start; /* Align the button at the bottom of the box */
+    }
+  </style>
+</head>
+<body>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey 
-w3-padding-16">About Us</h3>
+  <div class="w3-container small-padding" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><strong>About Us </strong></h3>
     <p>The Knightsbridge Strategic Group is dedicated to ensuring both business 
-    leaders and governments across the globe have expert geopolitical insights and 
-    strategic planning in place, allowing them to thrive in a challenging landscape.
+      leaders and governments across the globe have expert geopolitical insights and 
+      strategic planning in place, allowing them to thrive in a challenging landscape.
     </p>
-    <h3 class="w3-border-bottom w3-border-light-grey 
-w3-padding-16">Our Services</h3>
-    <p>1. Scenario Testing & Wargaming - Be it the Russian invasion of Ukraine, 
-      The October 7 Hamas attack on Israel, or the long-term rise of China, 
-      unprepared companies and governments across the globe have been left scrambling 
-      to deal with the impacts. KSG provides scenario wargames to allow clients to 
-      strategize for challenging situations on the horizon, and set in motion 
-      mitigations before that scenario ever arises. Be it supply chain concerns in 
-      the Red Sea, A Chinese invasion of Taiwan, or a critical infrastructure attack, 
-      our wargaming team can help develop a strategy to handle adversity.</p>
-    <p>2. Geopolitical Intelligence Reports - Our members have access to a vast range 
-      of geopolitical intelligence reports prepared by our intelligence team on the biggest 
-      challenges in geoeconomics, inter-state rivalry for key resources, energy supply, 
-      conflict, and much more. </p>
-    <p>3. Tailored Geopolitical Analysis - Our analysts are keen to work with you to 
-      specifically assess geopolitical threats and opportunities facing your company, 
-      government and/or industry. </p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-15">Our Services</h3>
+<div class="w3-row-padding w3-col service-container">
+  <div class="w3-col l3 m6 w3-margin-bottom service-box">
+    <div class="service-box-content">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">1. Scenario Testing & Wargaming</h3>
+      <p>Be it the Russian invasion of Ukraine, KSG provides scenario wargames to allow clients to strategize for challenging situations on the horizon, and set in motion mitigations before that scenario ever arises. Our wargaming team can help develop a strategy to handle adversity.</p>
+    </div>
   </div>
+  <div class="w3-col l3 m6 w3-margin-bottom service-box">
+    <div class="service-box-content">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">2. Geopolitical Intelligence Reports</h3>
+      <p>Our members have access to a vast range of geopolitical intelligence reports prepared by our intelligence team on the biggest challenges in geoeconomics, inter-state rivalry for key resources, energy supply, conflict, and much more.</p>
+    </div>
+  </div>
+  <div class="w3-col l3 m6 w3-margin-bottom service-box">
+    <div class="service-box-content">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">3. Tailored Geopolitical Analysis</h3>
+      <p>Our analysts are keen to work with you to specifically assess geopolitical threats and opportunities facing your company, government and/or industry.</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
   <!-- Our Team Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey 
-w3-padding-16">Our Team</h3>
+w3-padding-16"><strong>Our Team</strong></h3>
   </div>
 
   <div class="w3-row-padding w3-col">
@@ -70,7 +128,7 @@ w3-padding-16">Our Team</h3>
       <img 
 src="fg_icon.jpg" 
 alt="John" style="width:100%">
-      <h3>Finley Grimble</h3>
+      <h3 style="font-family: 'Times New Roman', Times, serif;">Finley Grimble</h3>
       <p class="w3-opacity">CEO & Founder</p>
       <p>Expert on grand strategy, NATO, Russia, & US foreign policy.</p>
       <p>Experience wargaming & strategizing for UK Government.</p>
@@ -84,44 +142,44 @@ w3-block" onclick="window.location.href='https://www.linkedin.com/in/finley-grim
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey 
-w3-padding-16">Intelligence Reports </h3>
+w3-padding-16"> <strong>Intelligence Reports</strong></h3>
   </div>
 
   <div class="w3-row-padding w3-col">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="globe_icon.png" alt="John" style="width:100%">
-      <h3>Russia & Eastern Europe</h3>
-      <p class="w3-opacity">add something</p>
+      <img src="globe_text.png" alt="John" style="width:100%">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">Russia & Eastern Europe</h3>
+      <p class="w3-opacity">June 2024</p>
       <p> Find frequent and up-to-date intelligence reports </p>
-      <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='https://medium.com/@louiseegrimble/list/russia-eastern-europe-54c84421ac3f'">Reports</button></p>
+      <p><button class="w3-button w3-light-grey w3-block">Reports</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="globe_icon.png" alt="John" style="width:100%">
-      <h3>China & Indo-Pacific</h3>
-      <p class="w3-opacity">add something</p>
+      <img src="globe_text.png" alt="John" style="width:100%">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">China & Indo-Pacific</h3>
+      <p class="w3-opacity">June 2024</p>
       <p> Find frequent and up-to-date intelligence reports </p>
-      <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='https://medium.com/@louiseegrimble/list/china-the-indopacific-d32f233da3e5'">Reports</button></p>
+      <p><button class="w3-button w3-light-grey w3-block">Reports</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="globe_icon.png" alt="John" style="width:100%">
-      <h3>Africa</h3>
-      <p class="w3-opacity">add something</p>
+      <img src="globe_text.png" alt="John" style="width:100%">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">Africa</h3>
+      <p class="w3-opacity">June 2024</p>
       <p> Find frequent and up-to-date intelligence reports </p>
-      <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='https://medium.com/@louiseegrimble/list/africa-f06b804448ee'">Reports</button></p>
+      <p><button class="w3-button w3-light-grey w3-block">Reports</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="globe_icon.png" alt="John" style="width:100%">
-      <h3>Middle East</h3>
-      <p class="w3-opacity">add something</p>
+      <img src="globe_text.png" alt="John" style="width:100%">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">Middle East</h3>
+      <p class="w3-opacity">June 2024</p>
       <p> Find frequent and up-to-date intelligence reports </p>
-      <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='https://medium.com/@louiseegrimble/list/middleeast-31f4e872b08a'">Reports</button></p>
+      <p><button class="w3-button w3-light-grey w3-block">Reports</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="globe_icon.png" alt="John" style="width:100%">
-      <h3>Geo-Economics</h3>
-      <p class="w3-opacity">add something</p>
+      <img src="globe_text.png" alt="John" style="width:100%">
+      <h3 style="font-family: 'Times New Roman', Times, serif;">Geo-Economics</h3>
+      <p class="w3-opacity">June 2024</p>
       <p> Find frequent and up-to-date intelligence reports </p>
-      <p><button class="w3-button w3-light-grey w3-block" onclick="window.location.href='https://medium.com/@louiseegrimble/list/geoeconomics-12867f8fe849'">Reports</button></p>
+      <p><button class="w3-button w3-light-grey w3-block" >Reports</button></p>
     </div>
   </div>
 
@@ -129,10 +187,10 @@ w3-padding-16">Intelligence Reports </h3>
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey 
-w3-padding-16">Contact Us</h3>
-    <p>Lets get in touch direct with our Founder.</p>
-    <p><a href="https://www.linkedin.com/company/knightsbridgestrategicgroup/about/">LinkedIn</a></p>
-    <p>Email: Knightsbridgesg@gmail.com</p>
+w3-padding-16"> <strong>Contact Us</strong></h3>
+    <b>Get in touch directly with our founder:</b>
+    <p><a href="https://www.linkedin.com/in/finley-grimble-97a798271/"><strong>LinkedIn</strong></a></p>
+    <p><b>Email:</b> Knightsbridgesg@gmail.com</p>
   </div>
 
 
@@ -151,7 +209,7 @@ w3-padding-16">Contact Us</h3>
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" 
-title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+title="Knightsbridgesg" target="_blank" class="w3-hover-text-green">Knightsbridgesg</a></p>
 </footer>
 
 </body>

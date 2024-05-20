@@ -1,0 +1,101 @@
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-black 
+w3-opacity-min"><b>Knightsbridge</b></span> </h1>
+    <h1 <span class="w3-hide-small w3-text-light-grey">Strategic Group</span> </h1>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+
+    <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16"> Our 
+Mission</h4>
+    <p> Our mission is clear: To empower individuals, businesses, and 
+organizations with the knowledge and strategies needed to thrive in an 
+ever-changing geopolitical environment. We are committed to delivering 
+actionable insights, innovative solutions, and unbiased analysis tailored 
+to the unique challenges and opportunities our clients face.
+   </p>
+   <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16"> Join 
+Us</h4>
+   <p> Whether you're a multinational corporation, government agency, 
+non-profit organization, or academic institution, we invite you to join us 
+on our journey to navigate the complexities of geopolitics and shape a 
+more secure and prosperous future.
+   </p>
+  </div>
+
+<!--team section-->
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <img 
+src="user.png" 
+alt="Jane" style="width:100%">
+    <h3> insert name 1</h3>
+    <p class="w3-opacity"> China Strategist</p>
+    <p> Oxford University (DEGREE B.A.)</p>
+    <p> Experiene with X</p>
+    <p> Another point here</p>
+    <p><button class="w3-button w3-light-grey 
+w3-block">Contact</button></p>
+  </div>
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <img 
+src="user.png" 
+alt="Mike" style="width:100%">
+    <h3>insert name 2</h3>
+    <p class="w3-opacity">COO</p>
+    <p> Cambridge University (DEGREE B.A.)</p>
+    <p> Experiene with X</p>
+    <p> Another point here</p>
+    <p><button class="w3-button w3-light-grey 
+w3-block">Contact</button></p>
+  </div>
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <img 
+src="user.png" 
+alt="Dan" style="width:100%">
+    <h3>insert name 3</h3>
+    <p class="w3-opacity">Analyst</p>
+    <p> King's College London (DEGREE B.A.)</p>
+    <p> Experiene with X</p>
+    <p> Another point here</p>
+    <p><button class="w3-button w3-light-grey 
+      w3-block">Contact</button></p>
+  </div>
+
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Project1</div>
+        <img src="https://cdn.worldvectorlogo.com/logos/nato-8.svg" 
+alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Project2</div>
+        <img 
+src="https://www.rand.org/content/rand/pubs/commentary/2023/11/winning-the-irregular-world-war/_jcr_content/par/teaser.crop.573x430.rt.jpeg/1699321054061.jpeg" 
+alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+
+  <p>1. Scenario Testing & Wargaming - Be it the Russian invasion of Ukraine, 
+    The October 7 Hamas attack on Israel, or the long-term rise of China, 
+    unprepared companies and governments across the globe have been left scrambling 
+    to deal with the impacts. KSG provides scenario wargames to allow clients to 
+    strategize for challenging situations on the horizon, and set in motion 
+    mitigations before that scenario ever arises. Be it supply chain concerns in 
+    the Red Sea, A Chinese invasion of Taiwan, or a critical infrastructure attack, 
+    our wargaming team can help develop a strategy to handle adversity.</p>
+  <p>2. Geopolitical Intelligence Reports - Our members have access to a vast range 
+    of geopolitical intelligence reports prepared by our intelligence team on the biggest 
+    challenges in geoeconomics, inter-state rivalry for key resources, energy supply, 
+    conflict, and much more. </p>
+  <p>3. Tailored Geopolitical Analysis - Our analysts are keen to work with you to 
+    specifically assess geopolitical threats and opportunities facing your company, 
+    government and/or industry. </p>
+</div>
